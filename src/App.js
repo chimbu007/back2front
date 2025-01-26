@@ -110,7 +110,7 @@ const App = () => {
             </li>
           </li>
           <li>Log out</li>
-          <button>SIGN UP</button>
+          <button>SIGN IN</button>
           <button>UPLOAD</button>
         </ul>
       </nav>
