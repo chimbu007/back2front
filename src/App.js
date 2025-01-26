@@ -109,7 +109,7 @@ const App = () => {
               </div>
             </li>
           </li>
-          <li>Login</li>
+          <li>Log out</li>
           <button>SIGN UP</button>
           <button>UPLOAD</button>
         </ul>
