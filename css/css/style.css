@@ -1,0 +1,361 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px; /* Adjust this value for more or less space */
+    max-width: 1200px; /* Increased max-width for larger container */
+    width: 100%; /* Ensures the container takes up the full width of its parent */
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    
+    
+}
+
+/* Left Content Section */
+.content {
+    width: 60%;
+    text-align: left;
+}
+
+.breadcrumb {
+    font-size: 14px;
+    color: #333;
+}
+
+.highlight {
+    background-color: #ffe699;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+    
+
+
+
+.breadcrumb {
+    font-size: 14px;
+    color: #333;
+}
+
+.highlight {
+    background-color: #2962ff;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #222;
+    
+}
+
+.description {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Right Sidebar */
+.sidebar {
+    width: 30%; /* Adjust width to fit within the larger container */
+    background: #fff;
+    padding: 30px;
+    border-left: 4px solid #2962ff;
+    border-right: 4px solid #2962ff;
+    border-radius: 10px;
+    text-align: right;
+}
+
+.sidebar img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.demo-button {
+    background-color: #222;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+.demo-button:hover {
+    background-color: #444;
+}
+
+.course-info {
+    text-align: left;
+}
+
+.course-info p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.icon {
+    color: #ffcc00;
+    margin-right: 5px;
+}
+
+.other-courses {
+    width: 250px; /* Adjust width as needed */
+    position: absolute;
+    right: 120px; /* Adjust the distance from the right */
+    top: 700px; /* Adjust distance from top */
+}
+
+.course-item {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between image and text */
+    margin-bottom: 10px;
+}
+
+.course-item img {
+    width: 60px; /* Adjust image size */
+    height: auto;
+    border-radius: 5px; /* Optional: for rounded corners */
+}
+
+
+
+
+
+
+
+/* WhatsApp Chat Button */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    background: #25D366;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.whatsapp img {
+    width: 30px;
+    margin-right: 8px;
+}
+
+.chat-text {
+    font-size: 14px;
+}
+
+.section{
+    font-size: 25px;
+    font-weight:bold;
+    color: #000;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background: #f9f9f9;
+}
+
+.accordion {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.accordion-item, .sub-accordion {
+    background: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+.accordion-header, .sub-accordion-header {
+    background: #fff;
+    color: #222;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.accordion-content, .sub-accordion-content {
+    display: none;
+    padding: 15px;
+    background: #fafafa;
+    font-size: 14px;
+}
+
+.accordion-content ul, .sub-accordion-content ul {
+    padding-left: 20px;
+}
+
+.accordion-content p, .sub-accordion-content p {
+    margin: 5px 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    margin: 20px;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.accordion {
+    width: 60%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.accordion-item {
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.accordion-header {
+    background: #fff;
+    color: #222;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    align-items: center;
+}
+
+.icon {
+    font-size: 18px;
+    font-weight: bold;
+    background:blue;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2962ff;
+}
+
+.accordion-content {
+    display: none;
+    padding: 15px;
+    background: #fafafa;
+    text-align: center;
+}
+
+.accordion-content img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 5px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    margin: 0;
+    padding: 40px;
+    text-align: center;
+}
+
+.flexibility-section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    flex: 1;
+    max-width: 250px;
+    text-align: center;
+}
+
+.icon-box {
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 15px;
+    border-radius: 8px;
+}
+
+.icon-box img {
+    width: 30px;
+    height: 30px;
+    filter: invert(1);
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    color: #333;
+}
+
+
+
+
