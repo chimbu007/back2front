@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front End Developer Course</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+<!-- Left Section -->
+<div class="content">
+    <nav class="breadcrumb">
+        <span>HOME</span> / <span>COURSES</span> / <span class="highlight">COURSE DETAILS</span>
+    </nav>
+    <h1>Front end Developer Course</h1>
+    <p class="description">
+        This front end developer course is designed for absolute beginners, providing a solid foundation in essential web development technologies. Learn HTML, CSS, Bootstrap, JavaScript, and React.js from experienced instructors.
+    </p>
+    <p class="description">
+        Master the art of building interactive and visually appealing websites and web applications. Enrol now and embark on your path to becoming a skilled front-end web developer.
+    </p>
+</div>
+
+ <!-- Right Sidebar -->
+ <div class="sidebar">
+    <img src="developer front image.jpg" alt="Course Illustration">
+    <button class="demo-button">Book a Demo Class</button>
+
+    <div class="course-info">
+       
+        <p><span class="icon">📊</span> <strong>Student Level:</strong> Beginner</p>
+        <p><span class="icon">📅</span> <strong>Duration:</strong> 3 Months</p>
+        <p><span class="icon">🌍</span> <strong>Mode:</strong> Online, Live Classes</p>
+        <P><span CLASS="icon">🎓</span> <strong>certificate:</strong> YES</P>
+    </div>
+</div>
+</div>
+
+        
+        
+
+    <div class="other-courses">
+        <h2>Other Courses</h2>
+        <div class="course-item">
+            <img src="uiux.gif" alt="UI UX Course">
+            <p><strong>UI UX Designer Course</strong></p>
+        </div>
+        <div class="course-item">
+            <img src="graphic design.gif" alt="Graphic Design Course">
+            <p><strong>Graphic Design Course</strong></p>
+        </div>
+        <div class="course-item">
+            <img src="full-stack-development.gif" alt="Full Stack Web Development Course">
+            <p><strong>Full Stack Web Development Course</strong></p>
+        </div>
+    </div>
+    
+    
+          
+        <!-- WhatsApp Chat Button -->
+        <a href="https://wa.me/1234567890" class="whatsapp">
+            <img src="icons8-whatsapp-48.png" alt="WhatsApp Icon">
+            <span class="chat-text">Chat with us</span>
+        </a>
+    </body>
+    </html>
+    
+
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Collapsible Section with Image & Text</title>
+        <style>
+            /* Basic page styles */
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f9f9f9;
+                padding: 20px;
+            }
+    
+            /* Collapsible container */
+            .collapsible-container {
+                width: 60%;
+                position:relative;
+                left: -20%;
+                margin: auto;
+                border: 1px solid #f1f1f1;
+                border-radius: 5px;
+                background-color: #fff;
+                overflow: hidden;
+                box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            }
+    
+            /* Styling for the collapsible header */
+            .collapsible-header {
+                background-color: #f1f1f1;
+                padding: 15px;
+                font-size: 20px;
+                font-weight: bold;
+                cursor: pointer;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+    
+            /* Styling for collapsible content */
+            .collapsible-content {
+                display: none;
+                padding: 15px;
+                background-color: white;
+                border-top: 1px solid #ccc;
+            }
+    
+            /* Styling for the toggle button */
+            .toggle-button {
+
+                width: 30px;
+                height: 30px;
+                background-color: blue;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 20px;
+                font-weight: bold;
+                cursor: pointer;
+                border: none;
+                outline: none;
+                text-align: center;
+                padding: 0%;
+            }
+    
+            /* Styling for images */
+            .collapsible-content img {
+                width: 100%;
+                max-width: 300px;
+                display: block;
+                margin: 20px 0;
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+    <h1 style="text-align: left;"> Course Syllabus</h1>
+    <h3 style="text-align: left;">Section 1.Front End Development </h3>
+        <div class="collapsible-container">
+            <div class="collapsible-header">
+                Lesson 1.Introduction to front end development(1hr)
+                <span class="toggle-button">+</span>
+            </div>
+            <div class="collapsible-content">
+                <img src="https://via.placeholder.com/400" alt="Sample Image">
+                <p>This Module will give you an understanding about what is front end development, its importance in improving a business, and the role of a front end developer in creating user-friendly websites. You will also learn the principles and the terms related to delivering a web content to the end user. As a front end developer, you will be introduced to web design tools that can be used to design web pages and debug the design code.</p>
+                <p>What is Web Design?</p>
+                <p>Overview of web design and its importance</p>
+                <p>Role of a front end developer</p>
+                <p>Web Design Basics
+                    Understanding the web: domains, hosting, and how websites work
+                    Web design vs. web development
+                    Essential Tools for designing and debugging
+                    Text editors (e.g., VS Code)
+                    Browsers and developer tools</p>
+                
+            </div>
+        </div>
+        
+
+
+    
+
+    <script>
+        // Select the header and content
+        const header = document.querySelector(".collapsible-header");
+        const content = document.querySelector(".collapsible-content");
+        const toggleButton = document.querySelector(".toggle-button");
+
+        // Add click event to toggle visibility
+        header.addEventListener("click", function () {
+            if (content.style.display == "block") {
+                content.style.display = "none";
+                toggleButton.textContent = "+"; // Change to plus
+            } else {
+                content.style.display = "block";
+                
+                toggleButton.textContent = "−"; // Change to minus
+            }
+        });
+    </script>
+
+</body>
+</html>
+
+<body>
+    <h3 style="text-align: left;">Section 2.HTML Basics</h3>
+    
+    <div class="collapsible-container">
+        <details>
+            <summary class="collapsible-header">
+                Introduction to HTML 
+                <span class="toggle-button"></span>
+            </summary>
+            <div class="collapsible-content">
+                
+                <p>This Module enables you to define the structure of a web page using various HTML tags, elements, and attributes. You will also be able to improve the accessibility of a website using semantic tags.
+
+                    Structure of an HTML document
+                    Tags, elements, and attributes</p>
+            </div>
+        </details>
+    </div>
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Collapsible Section with Image & Text</title>
+        <style>
+            /* Basic page styles */
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f9f9f9;
+                padding: 20px;
+            }
+    
+            /* Collapsible container */
+            .collapsible-container {
+                width: 60%;
+                position: relative;
+                left: -20%;
+                margin: auto;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                background-color: #fff;
+                overflow: hidden;
+                box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            }
+    
+            /* Styling for the collapsible header */
+            .collapsible-header {
+                background-color: #f1f1f1;
+                padding: 15px;
+                font-size: 20px;
+                font-weight: bold;
+                cursor: pointer;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+    
+            /* Styling for the toggle button */
+            .toggle-button::before {
+                content: '+';
+                width: 30px;
+                height: 30px;
+                background-color: #2962ff;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 30px;
+                font-weight: bold;
+                cursor: pointer;
+                border: none;
+                outline: none;
+            }
+    
+            /* Styling for open state of the toggle button */
+            details[open] .toggle-button::before {
+                content: '−';
+            }
+    
+            /* Styling for collapsible content */
+            .collapsible-content {
+                display: block;
+                padding: 15px;
+                background-color: white;
+                border-top: 1px solid #ccc;
+            }
+    
+            /* Styling for images */
+            .collapsible-content img {
+                width: 100%;
+                max-width: 300px;
+                display: block;
+                margin: 20px 0;
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        
+        <div class="collapsible-container">
+            <details>
+                <summary class="collapsible-header">
+                    Building Blocks of a Web Page
+                    <span class="toggle-button"></span>
+                </summary>
+                <div class="collapsible-content">
+                    <P>Headers, paragraphs, lists, and links</P>
+                    <P>Adding images and videos</P>
+                    <P>Designing tabular content using table tags</P>
+                    <P>Creating a user registration form using Form elements</P>
+                </div>
+            </details>
+        </div>
+    </body>
+    </html>
+    
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Collapsible Section with Image & Text</title>
+        <style>
+            /* Basic page styles */
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f9f9f9;
+                padding: 20px;
+            }
+    
+            /* Collapsible container */
+            .collapsible-container {
+                width: 60%;
+                position: relative;
+                left: -20%;
+                margin: auto;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                background-color: #fff;
+                overflow: hidden;
+                box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            }
+    
+            /* Styling for the collapsible header */
+            .collapsible-header {
+                background-color: #f1f1f1;
+                padding: 15px;
+                font-size: 20px;
+                font-weight: bold;
+                cursor: pointer;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+    
+            /* Styling for the toggle button */
+            .toggle-button::before {
+                content: '+';
+                width: 30px;
+                height: 30px;
+                background-color: #2962ff;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 30px;
+                font-weight: bold;
+                cursor: pointer;
+                border: none;
+                outline: none;
+            }
+    
+            /* Styling for open state of the toggle button */
+            details[open] .toggle-button::before {
+                content: '−';
+            }
+    
+            /* Styling for collapsible content */
+            .collapsible-content {
+                display: block;
+                padding: 15px;
+                background-color: white;
+                border-top: 1px solid #ccc;
+            }
+    
+            /* Styling for images */
+            .collapsible-content img {
+                width: 100%;
+                max-width: 300px;
+                display: block;
+                margin: 20px 0;
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        
+        <div class="collapsible-container">
+            <details>
+                <summary class="collapsible-header">
+                    Semantic HTML
+                    <span class="toggle-button"></span>
+                </summary>
+                <div class="collapsible-content">
+                    
+                    <p>Importance of semantic tags for enhancing website accessibility</p>
+                </div>
+            </details>
+        </div>
+    </body>
+    </html>
+
+    <H3 style="text-align: left;">Section 3. Styling with css (10hrs)</H3>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapsible Section with Image & Text</title>
+    <style>
+        /* Basic page styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+
+        /* Collapsible container */
+        .collapsible-container {
+            width: 60%;
+            position: relative;
+            left: -20%;
+            margin: auto;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            overflow: hidden;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Styling for the collapsible header */
+        .collapsible-header {
+            background-color: #f1f1f1;
+            padding: 15px;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Styling for the toggle button */
+        .toggle-button::before {
+            content: '+';
+            width: 30px;
+            height: 30px;
+            background-color: #2962ff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+            outline: none;
+        }
+
+        /* Styling for open state of the toggle button */
+        details[open] .toggle-button::before {
+            content: '−';
+        }
+
+        /* Styling for collapsible content */
+        .collapsible-content {
+            display: block;
+            padding: 15px;
+            background-color: white;
+            border-top: 1px solid #ccc;
+        }
+
+        /* Styling for images */
+        .collapsible-content img {
+            width: 100%;
+            max-width: 300px;
+            display: block;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="collapsible-container">
+        <details>
+            <summary class="collapsible-header">
+                Inroduction to CSS
+                <span class="toggle-button"></span>
+            </summary>
+            <div class="collapsible-content">
+               <P>In this Module, you will learn how to design visually appealing and responsive web pages using CSS properties and suitable CSS types.</P>
+              <p>Role of css in HTML</p>
+              <P>Inline,internal,and external CSS</P>
+              <P>CSS syntax and selectors</P>
+
+            </div>
+        </details>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Collapsible Section with Image & Text</title>
+<style>
+    /* Basic page styles */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        padding: 20px;
+    }
+
+    /* Collapsible container */
+    .collapsible-container {
+        width: 60%;
+        position: relative;
+        left: -20%;
+        margin: auto;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff;
+        overflow: hidden;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Styling for the collapsible header */
+    .collapsible-header {
+        background-color: #f1f1f1;
+        padding: 15px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* Styling for the toggle button */
+    .toggle-button::before {
+        content: '+';
+        width: 30px;
+        height: 30px;
+        background-color: #2962ff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-weight: bold;
+        cursor: pointer;
+        border: none;
+        outline: none;
+    }
+
+    /* Styling for open state of the toggle button */
+    details[open] .toggle-button::before {
+        content: '−';
+    }
+
+    /* Styling for collapsible content */
+    .collapsible-content {
+        display: block;
+        padding: 15px;
+        background-color: white;
+        border-top: 1px solid #ccc;
+    }
+
+    /* Styling for images */
+    .collapsible-content img {
+        width: 100%;
+        max-width: 300px;
+        display: block;
+        margin: 20px 0;
+        border-radius: 5px;
+    }
+</style>
+</head>
+<body>
+
+<div class="collapsible-container">
+    <details>
+        <summary class="collapsible-header">
+            Designing Layouts using CSS Properties
+            <span class="toggle-button"></span>
+        </summary>
+        <div class="collapsible-content">
+           <P>Colors, fonts, and text styling</P>
+           <p>Box model (margins, borders, padding)</p>
+            <p>Background properties</P>
+
+        </div>
+    </details>
+</div>
+</body>
+</html>
+<h3 style="text-align: left;">Section 4. bootstrap 5(15 hrs)</h3>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Collapsible Section with Image & Text</title>
+<style>
+    /* Basic page styles */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        padding: 20px;
+    }
+
+    /* Collapsible container */
+    .collapsible-container {
+        width: 60%;
+        position: relative;
+        left: -20%;
+        margin: auto;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff;
+        overflow: hidden;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Styling for the collapsible header */
+    .collapsible-header {
+        background-color: #f1f1f1;
+        padding: 15px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* Styling for the toggle button */
+    .toggle-button::before {
+        content: '+';
+        width: 30px;
+        height: 30px;
+        background-color:#2962ff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-weight: bold;
+        cursor: pointer;
+        border: none;
+        outline: none;
+    }
+
+    /* Styling for open state of the toggle button */
+    details[open] .toggle-button::before {
+        content: '−';
+    }
+
+    /* Styling for collapsible content */
+    .collapsible-content {
+        display: block;
+        padding: 15px;
+        background-color: white;
+        border-top: 1px solid #ccc;
+    }
+
+    /* Styling for images */
+    .collapsible-content img {
+        width: 100%;
+        max-width: 300px;
+        display: block;
+        margin: 20px 0;
+        border-radius: 5px;
+    }
+</style>
+</head>
+<body>
+
+<div class="collapsible-container">
+    <details>
+        <summary class="collapsible-header">
+            Introduction to bootstrap - part 1
+            <span class="toggle-button"></span>
+        </summary>
+        <div class="collapsible-content">
+           <P>In this Module, you will understand the importance and the benefits of using Bootstrap in designing responsive web pages. You will also learn how to design responsive web pages using various Bootstrap 5 components</P>
+
+        </div>
+    </details>
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Collapsible Section with Image & Text</title>
+<style>
+    /* Basic page styles */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        padding: 20px;
+    }
+
+    /* Collapsible container */
+    .collapsible-container {
+        width: 60%;
+        position: relative;
+        left: -20%;
+        margin: auto;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff;
+        overflow: hidden;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Styling for the collapsible header */
+    .collapsible-header {
+        background-color: #f1f1f1;
+        padding: 15px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* Styling for the toggle button */
+    .toggle-button::before {
+        content: '+';
+        width: 30px;
+        height: 30px;
+        background-color: #2962ff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-weight: bold;
+        cursor: pointer;
+        border: none;
+        outline: none;
+    }
+
+    /* Styling for open state of the toggle button */
+    details[open] .toggle-button::before {
+        content: '−';
+    }
+
+    /* Styling for collapsible content */
+    .collapsible-content {
+        display: block;
+        padding: 15px;
+        background-color: white;
+        border-top: 1px solid #ccc;
+    }
+
+    /* Styling for images */
+    .collapsible-content img {
+        width: 100%;
+        max-width: 300px;
+        display: block;
+        margin: 20px 0;
+        border-radius: 5px;
+    }
+</style>
+</head>
+<body>
+
+<div class="collapsible-container">
+    <details>
+        <summary class="collapsible-header">
+            Introduction to bootstrap - part 2
+            <span class="toggle-button"></span>
+        </summary>
+        <div class="collapsible-content">
+           <P>Buttons and Button Groups
+            Forms in Bootstrap 5
+            Navigation Components
+            </P>
+
+        </div>
+    </details>
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Collapsible Section with Image & Text</title>
+<style>
+    /* Basic page styles */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        padding: 20px;
+    }
+
+    /* Collapsible container */
+    .collapsible-container {
+        width: 60%;
+        position: relative;
+        left: -20%;
+        margin: auto;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff;
+        overflow: hidden;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Styling for the collapsible header */
+    .collapsible-header {
+        background-color: #f1f1f1;
+        padding: 15px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* Styling for the toggle button */
+    .toggle-button::before {
+        content: '+';
+        width: 30px;
+        height: 30px;
+        background-color: blue;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-weight: bold;
+        cursor: pointer;
+        border: none;
+        outline: none;
+    }
+
+    /* Styling for open state of the toggle button */
+    details[open] .toggle-button::before {
+        content: '−';
+    }
+
+    /* Styling for collapsible content */
+    .collapsible-content {
+        display: block;
+        padding: 15px;
+        background-color: white;
+        border-top: 1px solid #ccc;
+    }
+
+    /* Styling for images */
+    .collapsible-content img {
+        width: 100%;
+        max-width: 300px;
+        display: block;
+        margin: 20px 0;
+        border-radius: 5px;
+    }
+</style>
+</head>
+<body>
+
+<div class="collapsible-container">
+    <details>
+        <summary class="collapsible-header">
+            Advanced bootstrap components - part 3
+            <span class="toggle-button"></span>
+        </summary>
+        <div class="collapsible-content">
+           <P>1.Cards
+            2.Modals
+            3.Carousels
+            4.Using Icons with Bootstrap 5
+            5.Responsive utilities for visibility, alignment, and spacing
+            6.Hiding/showing content based on device size
+            </P>
+
+        </div>
+    </details>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapsible Sections with Image & Text</title>
+    <style>
+        /* Basic page styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+
+        /* Collapsible container */
+        .collapsible-container {
+            width: 60%;
+            position: relative;
+            left: -20%;
+            margin: auto;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            overflow: hidden;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Styling for the collapsible header */
+        .collapsible-header {
+            background-color: #f1f1f1;
+            padding: 15px;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Styling for the toggle button */
+        .toggle-button::before {
+            content: '+';
+            width: 30px;
+            height: 30px;
+            background-color: blue;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+            outline: none;
+        }
+
+        /* Styling for open state of the toggle button */
+        details[open] .toggle-button::before {
+            content: '−';
+        }
+
+        /* Styling for collapsible content */
+        .collapsible-content {
+            display: block;
+            padding: 15px;
+            background-color: white;
+            border-top: 1px solid #ccc;
+        }
+
+        /* Styling for images */
+        .collapsible-content img {
+            width: 100%;
+            max-width: 300px;
+            display: block;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexibility in Planning and Teaching</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <section class="flexibility-section">
+        <h2>Flexibility in Planning and Teaching</h2>
+        <div class="features">
+            <div class="feature-item">
+                <div class="icon-box">
+                    <img src="theory knowledge.png" alt="Theoretical Knowledge">
+                </div>
+                <h3>Theoretical Knowledge</h3>
+                <p>We offer comprehensive theoretical knowledge to help you gain a solid foundation in key technologies and concepts.</p>
+            </div>
+
+            <div class="feature-item">
+                <div class="icon-box">
+                    <img src="practical skills.png" alt="Practical Skills">
+                </div>
+                <h3>Practical Skills</h3>
+                <p>Hands-on experience. Real-world applications. Classroom theory reinforced through practical exercises and mock projects that simulate on-the-job challenges.</p>
+            </div>
+
+            <div class="feature-item">
+                <div class="icon-box">
+                    <img src="one on one.png" alt="One-one Mentorship">
+                </div>
+                <h3>One-one Mentorship</h3>
+                <p>Personalized attention tailored to your unique learning needs. One-on-one sessions to clarify concepts and overcome obstacles.</p>
+            </div>
+
+            <div class="feature-item">
+                <div class="icon-box">
+                    <img src="cap.jpeg" alt="Final Project">
+                </div>
+                <h3>Final Project</h3>
+                <p>Final Individual Project allows students to apply the concepts and skills learned throughout the course in a hands-on manner, cementing their understanding of the subject matter through practical implementation and problem-solving.</p>
+            </div>
+        </div>
+    </section>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FAQ Section</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color:#f1f1f1;
+                text-align: center;
+                padding: 20px;
+            }
+            .faq-container {
+                width: 70%;
+                margin: 0 auto;
+                text-align: left;
+            }
+            .faq-item {
+                background: #fff;
+                border-bottom: 1px solid #ddd;
+                padding: 15px;
+                cursor: pointer;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .faq-item:hover {
+                background-color: #f9f9f9;
+            }
+            .faq-answer {
+                display: none;
+                padding: 15px;
+                font-size: 16px;
+                color: #333;
+            }
+            .icon {
+                font-size: 24px;
+                font-weight: bold;
+                color: black; /* Blue toggle button */
+                background-color:blue ;
+                transition: transform 0.3s ease;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Popular Questions to Ask Before Choosing a Course</h1>
+        <p>Find quick answers to your questions about our courses, admissions, fees, and more.</p>
+        <div class="faq-container">
+            <div class="faq-item" onclick="toggleAnswer(0)">
+                What is the eligibility of this course? <span class="icon">+</span>
+            </div>
+            <div class="faq-answer">The eligibility criteria depend on the course type and prerequisites.</div>
+    
+            <div class="faq-item" onclick="toggleAnswer(1)">
+                Could a UI/UX Designer learn this course? <span class="icon">+</span>
+            </div>
+            <div class="faq-answer">Yes, UI/UX designers can enhance their skills with this course.</div>
+    
+            <div class="faq-item" onclick="toggleAnswer(2)">
+                Is this course a full-stack web development course? <span class="icon">+</span>
+            </div>
+            <div class="faq-answer">Yes, this course covers front-end and back-end development.</div>
+    
+            <div class="faq-item" onclick="toggleAnswer(3)">
+                Is this course pre-recorded? <span class="icon">+</span>
+            </div>
+            <div class="faq-answer">This course includes both live and pre-recorded sessions.</div>
+    
+            <div class="faq-item" onclick="toggleAnswer(4)">
+                Do I Receive Anything After I Complete a Course? <span class="icon">+</span>
+            </div>
+            <div class="faq-answer">Yes, you will receive a certificate upon successful completion.</div>
+    
+            <div class="faq-item" onclick="toggleAnswer(5)">
+                Where should I register? <span class="icon">+</span>
+            </div>
+            <div class="faq-answer">You can register on our official website.</div>
+    
+            <div class="faq-item" onclick="toggleAnswer(6)">
+                Do I pay course fees in terms? <span class="icon">+</span>
+            </div>
+            <div class="faq-answer">Yes, installment options are available.</div>
+    
+            <div class="faq-item" onclick="toggleAnswer(7)">
+                Do I get placement assistance? <span class="icon">+</span>
+            </div>
+            <div class="faq-answer">Yes, placement support is available for students.</div>
+        </div>
+    
+        <script>
+            function toggleAnswer(index) {
+                const answers = document.querySelectorAll('.faq-answer');
+                const icons = document.querySelectorAll('.icon');
+                
+                if (answers[index].style.display === 'block') {
+                    answers[index].style.display = 'none';
+                    icons[index].innerHTML = '+';
+                } else {
+                    answers[index].style.display = 'block';
+                    icons[index].innerHTML = '-';
+                }
+            }
+        </script>
+    </body>
+    </html>
+    
+
+    
+          
+    
+</body>
+</html>
